@@ -16,7 +16,7 @@ function App()  {
   }, [])
 
   const onSearchChange = (event) => {
-    setSearchField({event.target.value})
+    setSearchField(event.target.value)
   }
 
     const filteredRobots = robots.filter(robot => {
